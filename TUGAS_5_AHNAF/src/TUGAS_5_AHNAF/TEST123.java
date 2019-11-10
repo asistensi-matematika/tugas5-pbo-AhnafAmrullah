@@ -177,12 +177,11 @@ public class TEST123 {
                 for (int i = 0; i < n; i++) {
                     System.out.println("[" + (i + 1) + "] " + PRPSTKN[i].getTitle() + "\t| " + PRPSTKN[i].getAuthor());
                 }
-                int Delete = ABCD.nextInt();
-                for (int i = Delete; i < n; i++) {
-                }
+                int Delete = ABCD.nextInt();              
 
                 SumPages -= PRPSTKN[Delete - 1].getPages();
-
+                for (int i = Delete; i < n; i++) {
+                    PRPSTKN[Delete - 1] = PRPSTKN[i];
                 if (PRPSTKN[Delete - 1].getType() == "Fiksi") {
                     Fiction -= 1;
                     FictionPages -= PRPSTKN[Delete - 1].getPages();
@@ -191,6 +190,7 @@ public class TEST123 {
                     NonFiction -= 1;
                     NonFictionPages -= PRPSTKN[Delete - 1].getPages();
                     n -= 1;
+                }
                 }
             } else {
                 pil = 0;
