@@ -96,12 +96,12 @@ public class TEST123 {
             System.out.println("Standar Deviasi Halaman Buku dalam Perpustakaan: " + Math.sqrt(StandardDeviation / n));
             System.out.println("==========================================================================================");
             System.out.println("Jumlah Buku Fiksi dalam Perpustakaan: " + Fiction);
-            System.out.println("Rata-Rata Pages Buku Fiksi dalam Perpustakaan: " + AvrgFiction);
-            System.out.println("Standar deviasi Pages Buku Fiksi dalam Perpustakaan: " + Math.sqrt(FictionStandardDeviation / Fiction));
+            System.out.println("Rata-Rata Halaman Buku Fiksi dalam Perpustakaan: " + AvrgFiction);
+            System.out.println("Standar Deviasi Pages Buku Fiksi dalam Perpustakaan: " + Math.sqrt(FictionStandardDeviation / Fiction));
             System.out.println("==========================================================================================");
             System.out.println("Jumlah Buku Non Fiksi dalam Perpustakaan : " + NonFiction);
-            System.out.println("Rata-Rata Pages Buku Non Fiksi dalam Perpustakaan: " + AvrgNonFiction);
-            System.out.println("Standar deviasi Pages Buku Non Fiksi dalam Perpustakaan: " + Math.sqrt(NonFictionStandardDeviation / NonFiction));
+            System.out.println("Rata-Rata Halaman Buku Non Fiksi dalam Perpustakaan: " + AvrgNonFiction);
+            System.out.println("Standar Deviasi Halaman Buku Non Fiksi dalam Perpustakaan: " + Math.sqrt(NonFictionStandardDeviation / NonFiction));
             System.out.println("==========================================================================================");
             System.out.print("MASUKKAN PILIHAN : ");
             int pilihan = ABCD.nextInt();
