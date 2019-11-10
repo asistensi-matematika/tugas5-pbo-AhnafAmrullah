@@ -158,7 +158,7 @@ public class TEST123 {
                 String Author = ABCD.next();
                 PRPSTKN[UbahBuku - 1].setAuthor(Author);
 
-                System.out.print("input jumlah Pages BOOK : \n> ");
+                System.out.print("Input Jumlah Halaman Buku : \n> ");
                 int Pages = ABCD.nextInt();
                 int OldPages = PRPSTKN[UbahBuku - 1].getPages();
                 PRPSTKN[UbahBuku - 1].setPages(Pages);
@@ -173,7 +173,7 @@ public class TEST123 {
                 header("HAPUSBUKU.txt");
                 System.out.println("");
 
-                System.out.println("Pilih BOOK yang akan dihapus : ");
+                System.out.println("Pilih Buku Yang Akan Dihapus : ");
                 for (int i = 0; i < n; i++) {
                     System.out.println("[" + (i + 1) + "] " + PRPSTKN[i].getTitle() + "\t| " + PRPSTKN[i].getAuthor());
                 }
