@@ -9,7 +9,7 @@ package TUGAS_5_AHNAF;
  *
  * @author Ahnaf
  */
-public class BOOK extends PERPUSTAKAAN {
+public class BOOK extends LIBRARY {
 
     private String Title;
     private String Author;

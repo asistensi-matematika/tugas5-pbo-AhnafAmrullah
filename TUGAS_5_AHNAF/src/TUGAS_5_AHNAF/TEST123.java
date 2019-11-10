@@ -5,7 +5,7 @@
  */
 package TUGAS_5_AHNAF;
 
-import static TUGAS_5_AHNAF.PERPUSTAKAAN.header;
+import static TUGAS_5_AHNAF.LIBRARY.header;
 import java.io.*;
 import java.util.Random;
 import java.util.Scanner;

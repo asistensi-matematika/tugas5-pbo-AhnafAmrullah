@@ -11,26 +11,14 @@
 	Jenis Buku : Non-Fiksi
 }
 {
-	Judul Buku : Shikamaru Si Anak Durhaka
-	Pengarang : Makoto Nagano
-	Jumlah Halaman : 400
+	Judul Buku : Beruang
+	Pengarang : Koala
+	Jumlah Halaman : 900
 	Jenis Buku : Non-Fiksi
 }
 {
-	Judul Buku : Ronaldo
-	Pengarang : Messi
-	Jumlah Halaman : 750
-	Jenis Buku : Non-Fiksi
-}
-{
-	Judul Buku : Menara
-	Pengarang : Leonardo
-	Jumlah Halaman : 880
+	Judul Buku : Basket
+	Pengarang : YaoMing
+	Jumlah Halaman : 990
 	Jenis Buku : Fiksi
-}
-{
-	Judul Buku : Elang
-	Pengarang : Rahmat
-	Jumlah Halaman : 660
-	Jenis Buku : Non-Fiksi
 }
