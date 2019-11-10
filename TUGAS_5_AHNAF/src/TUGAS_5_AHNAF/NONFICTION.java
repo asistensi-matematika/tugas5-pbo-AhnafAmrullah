@@ -14,7 +14,7 @@ public class NONFICTION extends BOOK{
 
     public NONFICTION() {
         super();
-        BookType = "Non Fiksi";
+        BookType = "Non-Fiksi";
     }
 
     public NONFICTION(String BookType, String Title, String Author, String Type, int Pages) {

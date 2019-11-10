@@ -163,7 +163,7 @@ public class TEST123 {
                 int OldPages = PRPSTKN[UbahBuku - 1].getPages();
                 PRPSTKN[UbahBuku - 1].setPages(Pages);
                 SumPages = SumPages - OldPages + Pages;
-                if (PRPSTKN[UbahBuku - 1].getType() == "Fiction") {
+                if (PRPSTKN[UbahBuku - 1].getType() == "Fiksi") {
                     FictionPages = FictionPages - OldPages + PRPSTKN[UbahBuku - 1].getPages();
                 } else {
                     NonFictionPages = NonFictionPages - OldPages + PRPSTKN[UbahBuku - 1].getPages();
