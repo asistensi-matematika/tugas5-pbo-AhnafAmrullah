@@ -18,10 +18,12 @@ public class LIBRARY {
 
     public LIBRARY() {
     }
-    public void info(){
-        
+
+    public void info() {
+
     }
-     public static void header(String nama_file_txt){
+
+    public static void header(String nama_file_txt) {
         File file = new File(nama_file_txt);
         String encoding = "utf-8";
         try (InputStreamReader isr = new InputStreamReader(new FileInputStream(file), encoding)) {
@@ -30,7 +32,7 @@ public class LIBRARY {
                 System.out.print((char) data);
                 data = isr.read();
             }
-        } catch(IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

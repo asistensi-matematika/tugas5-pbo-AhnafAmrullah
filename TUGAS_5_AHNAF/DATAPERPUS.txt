@@ -5,20 +5,20 @@
 	Jenis Buku : Fiksi
 }
 {
-	Judul Buku : Plankton Naik Haji
-	Pengarang : Basil Hawkins
+	Judul Buku : Beruang
+	Pengarang : Koala
+	Jumlah Halaman : 850
+	Jenis Buku : Non-Fiksi
+}
+{
+	Judul Buku : Shikamaru Si Anak Durhaka
+	Pengarang : Makoto Nagano
 	Jumlah Halaman : 400
 	Jenis Buku : Non-Fiksi
 }
 {
-	Judul Buku : Beruang
-	Pengarang : Koala
+	Judul Buku : Ronaldo
+	Pengarang : Messi
 	Jumlah Halaman : 900
 	Jenis Buku : Non-Fiksi
-}
-{
-	Judul Buku : Basket
-	Pengarang : YaoMing
-	Jumlah Halaman : 990
-	Jenis Buku : Fiksi
 }

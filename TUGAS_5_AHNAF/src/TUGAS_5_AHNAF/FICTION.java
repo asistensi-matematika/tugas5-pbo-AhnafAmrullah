@@ -10,8 +10,9 @@ package TUGAS_5_AHNAF;
  * @author Ahnaf
  */
 public class FICTION extends BOOK {
-  private String BookType;
-    
+
+    private String BookType;
+
     public FICTION() {
         super();
         BookType = "Fiksi";
@@ -29,5 +30,5 @@ public class FICTION extends BOOK {
     public void setJenisBuku(String BookType) {
         this.BookType = BookType;
     }
-    
+
 }

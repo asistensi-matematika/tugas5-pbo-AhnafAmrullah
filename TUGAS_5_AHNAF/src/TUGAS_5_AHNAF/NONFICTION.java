@@ -9,7 +9,8 @@ package TUGAS_5_AHNAF;
  *
  * @author Ahnaf
  */
-public class NONFICTION extends BOOK{
+public class NONFICTION extends BOOK {
+
     private String BookType;
 
     public NONFICTION() {
@@ -29,5 +30,5 @@ public class NONFICTION extends BOOK{
     public void setJenisBuku(String BookType) {
         this.BookType = BookType;
     }
-    
+
 }

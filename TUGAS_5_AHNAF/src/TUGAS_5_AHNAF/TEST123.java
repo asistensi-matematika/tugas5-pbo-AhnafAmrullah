@@ -173,11 +173,14 @@ public class TEST123 {
                 header("HAPUSBUKU.txt");
                 System.out.println("");
 
-                System.out.println("Pilih Buku Yang Akan Dihapus : ");
+                System.out.println("Pilih Buku yang Akan Dihapus : ");
                 for (int i = 0; i < n; i++) {
                     System.out.println("[" + (i + 1) + "] " + PRPSTKN[i].getTitle() + "\t| " + PRPSTKN[i].getAuthor());
                 }
                 int Delete = ABCD.nextInt();
+                for (int i = Delete; i < n; i++) {
+                }
+
                 SumPages -= PRPSTKN[Delete - 1].getPages();
 
                 if (PRPSTKN[Delete - 1].getType() == "Fiksi") {
@@ -193,7 +196,7 @@ public class TEST123 {
                 pil = 0;
             }
         } while (pil != 0);
-    
+
         String path = "DATAPERPUS.txt";
         try {
             FileWriter fw = new FileWriter(path);
@@ -202,7 +205,7 @@ public class TEST123 {
                 int a = i + 1;
                 bw.write("{");
                 bw.newLine();
-                bw.write("\tJudul Buku : "  + PRPSTKN[i].getTitle());
+                bw.write("\tJudul Buku : " + PRPSTKN[i].getTitle());
                 bw.newLine();
                 bw.write("\tPengarang : " + PRPSTKN[i].getAuthor());
                 bw.newLine();
