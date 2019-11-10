@@ -84,7 +84,7 @@ public class TEST123 {
             double AvrgFiction = FictionPages / Fiction;
             double AvrgNonFiction = NonFictionPages / NonFiction;
             for (int i = 0; i < n; i++) {
-                if (PRPSTKN[i].getType() == "Fiction") {
+                if (PRPSTKN[i].getType() == "Fiksi") {
                     FictionStandardDeviation = Math.pow((PRPSTKN[i].getPages() - AvrgFiction), 2);
                 } else {
                     NonFictionStandardDeviation = Math.pow((PRPSTKN[i].getPages() - AvrgNonFiction), 2);
@@ -93,11 +93,11 @@ public class TEST123 {
 
             System.out.println("Jumlah Buku di Dalam Perpustakaan: " + n);
             System.out.println("Rata-Rata Halaman Buku dalam Perpustakaan: " + Avrg);
-            System.out.println("Standar Deviasi Halaman Buku dalam Perpustakaan: " + Math.sqrt(StandardDeviation / n));
+            System.out.println("Standar Deviasi Halaman Buku Dalam Perpustakaan: " + Math.sqrt(StandardDeviation / n));
             System.out.println("==========================================================================================");
             System.out.println("Jumlah Buku Fiksi dalam Perpustakaan: " + Fiction);
-            System.out.println("Rata-Rata Halaman Buku Fiksi dalam Perpustakaan: " + AvrgFiction);
-            System.out.println("Standar Deviasi Pages Buku Fiksi dalam Perpustakaan: " + Math.sqrt(FictionStandardDeviation / Fiction));
+            System.out.println("Rata-Rata Halaman Buku Fiksi Dalam Perpustakaan: " + AvrgFiction);
+            System.out.println("Standar Deviasi Pages Buku Fiksi Dalam Perpustakaan: " + Math.sqrt(FictionStandardDeviation / Fiction));
             System.out.println("==========================================================================================");
             System.out.println("Jumlah Buku Non Fiksi dalam Perpustakaan : " + NonFiction);
             System.out.println("Rata-Rata Halaman Buku Non Fiksi dalam Perpustakaan: " + AvrgNonFiction);
@@ -118,7 +118,7 @@ public class TEST123 {
                     System.out.print("Input Pengarang Buku : \n> ");
                     String Author = ABCD.next();
                     PRPSTKN[n - 1].setAuthor(Author);
-                    System.out.print("input jumlah Halaman Buku : \n> ");
+                    System.out.print("Input jumlah Halaman Buku : \n> ");
 
                     int Pages = ABCD.nextInt();
 
@@ -180,7 +180,7 @@ public class TEST123 {
                 int Delete = ABCD.nextInt();
                 SumPages -= PRPSTKN[Delete - 1].getPages();
 
-                if (PRPSTKN[Delete - 1].getType() == "Fiction") {
+                if (PRPSTKN[Delete - 1].getType() == "Fiksi") {
                     Fiction -= 1;
                     FictionPages -= PRPSTKN[Delete - 1].getPages();
                     n -= 1;
